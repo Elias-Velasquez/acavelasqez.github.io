@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+}
+
+header {
+    background-color: #3A3A37;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.avatar {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: black;
+}
+
+nav {
+    width: 50%;
+    height: 70%;
+
+    
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(83, 83, 172);
+}
+
+nav > ul > li {
+    list-style: none;
+    background-color: rgb(189, 189, 189);
+    border-radius: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 1px 1px black;
+    padding: 8px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+.selected {
+    background-color: rgb(83, 83, 172);  
+}
+
+.selectedAnch {
+    color: white;
+}
+
+nav > ul > li:hover{
+    background-color: rgb(83, 83, 172);
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-presentacion{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+}
+
+.div-presentacion2{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+}
+
+.div-presentacion > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+    background-color: #3A3A37;
+    color: rgb(189, 189, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-presentacion2 > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(83, 83, 172);
+    color: rgb(189, 189, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-presentacion{
+    width: 100%;
+    height: 100%;
+}
+
+.img-presentacion2{
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+    background-color: #3A3A37;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.info-footer{
+    color: rgb(189, 189, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icono {
+    height: 20px;
+    width: 20px;
+}
+
+.redes > h4 {
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+
+.redes > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.redes {
+    width: 150px;
+    background-color: rgb(83, 83, 172);
+}
+
+
+/* about */
+
+.main-contact {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-img{
+    width: 40%;
+    height: 45%;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-url1 {
+    background-image: url('/assets/linkedin.png');
+}
+
+.contact-url2 {
+    background-image: url('/assets/github.png');
+}
+
+.contact-url3 {
+    background-image: url('/assets/youtube.png');
+}
+
+.contact-url4 {
+    background-image: url('/assets/hoja.png');
+}
+
+.contact-img > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.contact-img > div > h4 {
+    padding: 10px;
+    color: white;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.main-project{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-project > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-project > .div1{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-project > .div2{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-project > .div1 > div{
+    width: 49.5%;
+    height: 49%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-project > .div2 > div{
+    width: 48%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cody1{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/cody.png);
+    border-top-left-radius: 10%;
+}
+
+.cody2{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/cody2.png);
+    border-top-right-radius: 10%;
+}
+
+.cody3{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/cody3.png);
+    border-bottom-left-radius: 10%;
+}
+
+.cody4{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/cody4.png);
+    border-bottom-right-radius: 10%;
+}
+
+.mobile1{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/mobile.png);
+    border-top-left-radius: 10%;
+}
+
+.mobile2{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/mobile2.png);
+    border-top-right-radius: 10%;
+}
+.mobile3{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/mobile3.png);
+    border-bottom-left-radius: 10%;
+}
+
+.mobile4{
+    border: 1px solid rgb(83, 83, 172);
+    background-image: url(/assets/mobile4.png);
+    border-bottom-right-radius: 10%;
+}
