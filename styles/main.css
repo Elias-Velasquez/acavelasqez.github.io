@@ -227,7 +227,7 @@ footer {
 }
 
 .contact-url1 {
-    background-image: url('/assets/linkedin.png');
+    background-image: url('/aca/assets/linkedin.png');
 }
 
 .contact-url2 {
@@ -258,6 +258,11 @@ footer {
     background-color: rgba(0, 0, 0, 0.342);
 }
 
+.contact-img > div > h4 > a{
+    color: white;
+    text-decoration: none;
+}
+
 .main-project{
     width: 80%;
     height: 80%;
@@ -268,6 +273,10 @@ footer {
 
 .main-project > h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-project > h2 > a {
+   text-decoration: none;
 }
 
 .main-project > .div1{
